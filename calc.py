@@ -71,4 +71,5 @@ def complex_eval(exp_str):
     
 
 if __name__ == '__main__':
-    print(type(complex_eval('(1/2)*3+((13+5 *5)/(5+5))')))
+    test_str = ' (1 /2)*3+((13+5 *5)/(2+0))'
+    print(complex_eval(test_str),'==', eval(test_str))
